@@ -104,6 +104,7 @@ body {
 
 #brand .brand-div:hover {
     background: rgb(13 110 253 / 25%);
+    transition: 1s;
 }
 
 #brand .brand-div img {
@@ -113,6 +114,13 @@ body {
 #brand .brand-div .heading {
     font-size: 14px;
     font-weight: 600;
+}
+
+#brand .brand-div .heading a {
+    color: #009270;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 #brand .brand-div .description {
