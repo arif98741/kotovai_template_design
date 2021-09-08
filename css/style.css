@@ -56,10 +56,12 @@ body {
 #banner {}
 
 #banner .banner-content {
-    background-image: url(../img/banner-image2.jpg);
+    /* background-image: url(../img/banner-image2.jpg); */
+    background-image: url(https://cdn.pixabay.com/photo/2016/12/01/18/17/mobile-phone-1875813_960_720.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     min-height: 100px;
+    background-size: cover;
 }
 
 #banner .banner-content h3 {
@@ -108,7 +110,8 @@ body {
 
 #brand .brand-div:hover {
     background: rgb(13 110 253 / 25%);
-    transition: 1s;
+    transition: .5s;
+    box-shadow: 2px 5px 5px 0px #ddd;
 }
 
 #brand .brand-div img {
