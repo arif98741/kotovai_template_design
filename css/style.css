@@ -46,6 +46,10 @@ body {
     font-weight: 600;
 }
 
+.navbar-collapse .navbar-nav {
+    background: #009270;
+}
+
 
 /*banner section */
 
