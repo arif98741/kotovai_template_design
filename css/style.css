@@ -10,6 +10,7 @@ a {
 body {
     font-size: 16px;
     font-family: sans-serif;
+
 }
 
 #header {
@@ -53,15 +54,17 @@ body {
 
 /*banner section */
 
-#banner {}
-
-#banner .banner-content {
-    /* background-image: url(../img/banner-image2.jpg); */
+#banner {
+    
     background-image: url(https://cdn.pixabay.com/photo/2016/12/01/18/17/mobile-phone-1875813_960_720.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     min-height: 100px;
     background-size: cover;
+}
+
+#banner .banner-content {
+    
 }
 
 #banner .banner-content h3 {
@@ -78,7 +81,7 @@ body {
 #banner .intro {
     padding: 13px;
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     background: #009270;
     font-weight: 100;
     line-height: 31px;
