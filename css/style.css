@@ -20,7 +20,9 @@ body {
     height: 70px;
 }
 
-#header nav {}
+#header nav {
+    background: #009270;
+}
 
 #header .navbar-brand {
     color: #fff;
@@ -53,16 +55,15 @@ body {
 
 /*banner section */
 
-#banner {}
-
-#banner .banner-content {
-    /* background-image: url(../img/banner-image2.jpg); */
-    background-image: url(https://cdn.pixabay.com/photo/2016/12/01/18/17/mobile-phone-1875813_960_720.jpg);
+#banner {
+    background-image: url(../img/home-banner.webp);
     background-position: center center;
     background-repeat: no-repeat;
     min-height: 100px;
     background-size: cover;
 }
+
+#banner .banner-content {}
 
 #banner .banner-content h3 {
     color: #fff;
@@ -76,12 +77,12 @@ body {
 }
 
 #banner .intro {
-    padding: 13px;
+    padding: 7px;
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     background: #009270;
     font-weight: 100;
-    line-height: 31px;
+    line-height: 27px;
 }
 
 
@@ -137,8 +138,24 @@ body {
 #brand .brand-btn {
     font-size: 16px;
     color: rgb(0 146 112);
-    border-radius: 0px;
-    max-width: 30%;
     padding: 5px;
     font-weight: 600;
+    border: 1px solid #009270;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
 }
+
+#brand .newly-launched {}
+
+#brand .newly-launched h3 {
+    font-size: 13px;
+    text-align: left;
+    background: #53a08e;
+    padding: 6px;
+    color: #fff;
+}
+
+#brand .newly-launched h2 {}
+
+#brand .newly-launched img {}
