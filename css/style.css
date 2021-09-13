@@ -164,3 +164,33 @@ body {
 }
 
 #brand .newly-launched img {}
+
+
+/* footer */
+
+#footer-section {
+    background: #061621;
+    min-height: 150px;
+    color: #F7F8F8;
+}
+
+#footer-section .footer-block {}
+
+#footer-section .footer-block {}
+
+#footer-section h2 {}
+
+#footer-section ul {
+    margin-top: 40px;
+}
+
+#footer-section ul>li {
+    border: 0px;
+    background: none;
+    line-height: 12px;
+    font-size: 14px;
+}
+
+#footer-section ul>li>a {
+    color: #fff;
+}
