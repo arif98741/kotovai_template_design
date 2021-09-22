@@ -56,7 +56,7 @@ body {
 /*banner section */
 
 #banner {
-    background-image: url(../img/home-banner.webp);
+    background-image: url(../img/home-banner.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     min-height: 100px;
@@ -164,6 +164,48 @@ body {
 }
 
 #brand .newly-launched img {}
+
+
+/* mobile section */
+
+#mobile-section {}
+
+#mobile-section h3 {
+    background: #009270;
+    color: #fff;
+    padding: 7px;
+    margin-top: 10px;
+}
+
+#mobile-section .container {}
+
+#mobile-section .card {
+    border: 1px solid #53a08e;
+    border-radius: 0px;
+}
+
+#mobile-section .card-body {
+    padding: 0px;
+}
+
+#mobile-section .itemside {
+    margin: 0px;
+    padding: 0px;
+}
+
+#mobile-section .caption {
+    color: #fff;
+    font-size: 13px !important;
+    background: #009270;
+}
+
+#mobile-section .card-body .heading {
+    font-size: 13px;
+    text-align: left;
+    padding: 6px;
+    color: #fff;
+    margin: 0px;
+}
 
 
 /* footer */
