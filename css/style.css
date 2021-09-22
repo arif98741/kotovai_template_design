@@ -179,7 +179,9 @@ body {
     margin-top: 10px;
 }
 
-#mobile-section .container {}
+#mobile-section .container {
+    padding: 0px;
+}
 
 #mobile-section .card {
     border: 1px solid #53a08e;
