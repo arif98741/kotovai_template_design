@@ -276,8 +276,15 @@ body {
 #mobile-section .pagination-container .page-link {}
 
 
-/* footer */
+/** navbar toggler /*/
+.navbar-toggler{
+    background-color: #a2abb1;
+    border: 0px;
+    margin-right: 10px;
+    border-radius: 0px;
+}
 
+/* footer */
 #footer-section {
     background: #061621;
     min-height: 150px;
@@ -307,7 +314,7 @@ body {
 
 @media (max-width: 978px) {
     .container {
-        padding: 0;
+
         margin: 0;
     }
     #mobile-section .container {
