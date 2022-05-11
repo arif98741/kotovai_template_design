@@ -34,13 +34,14 @@ body {
 #header .navbar-brand {
     color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
-    ;
+    font-size: 18px;;
 }
 
-#header .navbar-brand img {}
+#header .navbar-brand img {
+}
 
-#header .navbar-brand .navbar-nav {}
+#header .navbar-brand .navbar-nav {
+}
 
 #header .nav-item {
     padding: 5px 26px;
@@ -70,7 +71,8 @@ body {
     background-size: cover;
 }
 
-#banner .banner-content {}
+#banner .banner-content {
+}
 
 #banner .banner-content h3 {
     color: #fff;
@@ -95,7 +97,8 @@ body {
 
 /* brand */
 
-#brand {}
+#brand {
+}
 
 #brand .container {
     padding: 0px;
@@ -156,7 +159,8 @@ body {
     text-align: center;
 }
 
-#brand .newly-launched {}
+#brand .newly-launched {
+}
 
 #brand .newly-launched h3 {
     font-size: 12px;
@@ -166,14 +170,46 @@ body {
     color: #fff;
 }
 
-#brand .newly-launched h2 {}
+#brand .newly-launched h2 {
+}
 
 #brand .newly-launched a {
     color: #fff;
     text-align: center;
 }
 
-#brand .newly-launched img {}
+#brand .newly-launched img {
+}
+
+#sidebar-menu-home {
+    border: 1px solid #009270;
+}
+
+#sidebar-menu-home .menu_title {
+    font-size: 24px;
+    border: 1px solid red;
+    border-top: 0px;
+    padding: 4px;
+    background: #009270;
+    color: #fff;
+}
+
+#sidebar-menu-home nav {
+
+}
+
+#sidebar-menu-home nav ul {
+    padding: 10px;
+}
+
+#sidebar-menu-home nav ul li {
+    line-height: 28px;
+}
+
+#sidebar-menu-home nav ul li a {
+    text-decoration: none;
+    color: #009270 !important;
+}
 
 
 /* mobile section */
@@ -271,13 +307,15 @@ body {
     justify-content: center;
 }
 
-#mobile-section .pagination-container .page-active {}
+#mobile-section .pagination-container .page-active {
+}
 
-#mobile-section .pagination-container .page-link {}
+#mobile-section .pagination-container .page-link {
+}
 
 
 /** navbar toggler /*/
-.navbar-toggler{
+.navbar-toggler {
     background-color: #a2abb1;
     border: 0px;
     margin-right: 10px;
@@ -291,24 +329,27 @@ body {
     color: #F7F8F8;
 }
 
-#footer-section .footer-block {}
+#footer-section .footer-block {
+}
 
-#footer-section .footer-block {}
+#footer-section .footer-block {
+}
 
-#footer-section h2 {}
+#footer-section h2 {
+}
 
 #footer-section ul {
     margin-top: 40px;
 }
 
-#footer-section ul>li {
+#footer-section ul > li {
     border: 0px;
     background: none;
     line-height: 12px;
     font-size: 14px;
 }
 
-#footer-section ul>li>a {
+#footer-section ul > li > a {
     color: #fff;
 }
 
@@ -317,6 +358,7 @@ body {
 
         margin: 0;
     }
+
     #mobile-section .container {
         padding: 5px;
     }
